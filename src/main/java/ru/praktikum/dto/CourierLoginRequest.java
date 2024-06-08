@@ -1,4 +1,4 @@
-package praktikum.dto;
+package ru.praktikum.dto;
 
 public class CourierLoginRequest {
     private String login;

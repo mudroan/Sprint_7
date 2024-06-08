@@ -1,4 +1,4 @@
-package praktikum.steps;
+package ru.praktikum.steps;
 import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
@@ -7,7 +7,7 @@ import ru.praktikum.dto.OrderCreateRequest;
 import java.util.List;
 import static io.restassured.RestAssured.given;
 import static ru.praktikum.config.RestConfig.HOST;
-import static ru.praktikum.model.constants.ApiLink.ORDER;
+import static ru.praktikum.model.constants.ApiURI.ORDER;
 
 public class OrderSteps {
 

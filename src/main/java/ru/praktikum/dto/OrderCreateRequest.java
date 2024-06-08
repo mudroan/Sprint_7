@@ -1,4 +1,4 @@
-package praktikum.dto;
+package ru.praktikum.dto;
 
 import java.util.List;
 

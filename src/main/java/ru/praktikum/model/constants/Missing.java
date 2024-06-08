@@ -1,4 +1,4 @@
-package praktikum.model.constants;
+package ru.praktikum.model.constants;
 
 public class Missing {
     public static final String MISSING_LOGIN = null;

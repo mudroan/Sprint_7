@@ -1,4 +1,4 @@
-package praktikum.steps;
+package ru.praktikum.steps;
 import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
@@ -6,7 +6,7 @@ import ru.praktikum.dto.CourierCreateRequest;
 import ru.praktikum.dto.CourierLoginRequest;
 import static io.restassured.RestAssured.given;
 import static ru.praktikum.config.RestConfig.HOST;
-import static ru.praktikum.model.constants.ApiLink.*;
+import static ru.praktikum.model.constants.ApiURI.*;
 
 public class CourierSteps {
 

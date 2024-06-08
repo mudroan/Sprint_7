@@ -1,6 +1,6 @@
 package ru.praktikum.model.constants;
 
-public class ApiUri {
+public class ApiURI {
 
     public static final String CREATE_COURIER = "/api/v1/courier";
     public static final String LOGIN_COURIER = "/api/v1/courier/login";
